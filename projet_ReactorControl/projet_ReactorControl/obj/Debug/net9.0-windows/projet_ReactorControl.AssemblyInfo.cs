@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projet_ReactorControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef780a8820580f762a1ecb01ffe1b9b5018b9649")]
 [assembly: System.Reflection.AssemblyProductAttribute("projet_ReactorControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projet_ReactorControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

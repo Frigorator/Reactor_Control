@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>640</y>
+      <w>420</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>game1
+--
+update //mettre a jour
+draw //afficher le nouveau
+innitialize //innitialiser les valeur de départ
+LoadContent //Chagre les textures</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>530</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>reactor_module
+--
+totalOccurence=0;
+ctr(spriteSheet etat
+,tuple occurence
+,float tresholdActivation
+,texture
+)
++update()
+//ajouter un nombre aléatoire dans occurence
+//puis l'ajouter a totalOccurence
+//si total ocurrence&gt;=tresholdActivation
+//aller au prochain état et changer le visuel
+repaired
+//reduit totall occurence
+//si totalOccurence&lt;=0
+//baisser l'etat et mettre totalOccurence max-x</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>330</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Sprite generic
+--
+gère l'affichage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>330</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Animator
+--
+gere les animation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>330</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Animator
+--
+gere le son</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>400</y>
+      <w>160</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>400</y>
+      <w>90</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>400</y>
+      <w>150</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;120.0</additional_attributes>
+  </element>
+</diagram>
